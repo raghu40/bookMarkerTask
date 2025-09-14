@@ -1,0 +1,35 @@
+.bookmark-card-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.bookmark-card-form mat-card-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #1976d2;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  justify-content: flex-end;
+}
+
+button[mat-raised-button] {
+  min-width: 100px;
+}
+
+button[mat-button] {
+  color: #1976d2;
+}

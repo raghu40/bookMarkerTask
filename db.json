@@ -1,0 +1,67 @@
+{
+  "bookmarks": [
+    {
+      "id": "1",
+      "title": "Angular",
+      "url": "https://angular.io",
+      "notes": "Official site-jow",
+      "createdAt": "2025-09-11T10:33:11.799815"
+    },
+    {
+      "id": "2",
+      "title": "NgRx",
+      "url": "https://ngrx.io",
+      "notes": "State management-1",
+      "createdAt": "2025-09-10T10:33:11.799822"
+    },
+    {
+      "id": "3",
+      "title": "MDN",
+      "url": "https://developer.org",
+      "notes": "Docs",
+      "createdAt": "2025-09-08T10:33:11.799829"
+    },
+    {
+      "title": "Welcome",
+      "url": "www.google.com",
+      "notes": "please show123",
+      "id": "17c0",
+      "createdAt": "2025-09-12T18:11:58.330Z"
+    },
+    {
+      "id": "f664",
+      "title": "sample",
+      "url": "sample.com",
+      "notes": "test the sample",
+      "createdAt": "2025-09-11T19:15:12.856Z"
+    },
+    {
+      "id": "b4ce",
+      "title": "sample2",
+      "url": "sample2.com",
+      "notes": "test the testerss",
+      "createdAt": "2025-09-11T19:15:29.925Z"
+    },
+    {
+      "id": "494e",
+      "title": "adsdsd",
+      "url": "www.ssd.com",
+      "notes": "sdsdsd",
+      "createdAt": "2025-09-11T19:15:41.743Z"
+    },
+    {
+      "title": "Google",
+      "url": "http://www.google.com",
+      "notes": "This is the google Website",
+      "id": "81b2",
+      "createdAt": "2025-09-14T08:55:17.859Z"
+    },
+    {
+      "id": "fdea",
+      "title": "Microsoft",
+      "url": "http://microsoft.com",
+      "notes": "this is microsoft",
+      "createdAt": "2025-09-14T08:55:42.637Z"
+    }
+  ]
+}

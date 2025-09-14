@@ -1,0 +1,36 @@
+@if(groupedBookmarks; as groups) {
+@for(group of groups; track $index) {
+<h3 class="group-title">{{ group.title }}</h3>
+<div class="bookmark-cards">
+  @for(item of group.items; track item.id) {
+  <mat-card class="bookmark-card">
+    <mat-card-content>
+      <div class="bookmark-content">
+        <div class="bookmark-info">
+          <mat-icon>bookmark</mat-icon>
+          <div class="bookmark-text">
+            <div class="bookmark-title">{{ item.title }}</div>
+            <a [href]="item.url" target="_blank">{{ item.url }}</a>
+          </div>
+        </div>
+        <div class="bookmark-actions">
+          <button mat-icon-button [routerLink]="['/edit', item.id]">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-icon-button (click)="onDelete(item.id)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  }
+</div>
+} @empty {
+<p class="empty-message">No bookmarks found.</p>
+}
+} @else {
+<div class="loading-container">
+  <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+</div>
+}
