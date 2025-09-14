@@ -1,6 +1,7 @@
 # BookMarkerTask
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+It makes use of Angular Signals and Input Signals for reactive state management and component communication.
 
 ## clone the project
 ```bash
